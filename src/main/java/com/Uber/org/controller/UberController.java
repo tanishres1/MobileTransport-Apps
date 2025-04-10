@@ -9,4 +9,9 @@ public class UberController {
     public String getUberMsg(){
         return "Uber notification get activated";
     }
+
+    @GetMapping("/alert")
+    public String getAlertUber(){
+        return "Uber Alert message";
+    }
 }
