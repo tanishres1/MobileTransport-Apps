@@ -14,4 +14,9 @@ public class UberController {
     public String getAlertUber(){
         return "Uber Alert message";
     }
+
+    @GetMapping("/offers")
+    public String getUberOffers(){
+        return "Uber offers";
+    }
 }
