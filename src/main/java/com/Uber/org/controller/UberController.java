@@ -1,0 +1,22 @@
+package com.Uber.org.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UberController {
+    @GetMapping("/msg")
+    public String getUberMsg(){
+        return "Uber notification get activated";
+    }
+
+    @GetMapping("/alert")
+    public String getAlertUber(){
+        return "Uber Alert message";
+    }
+
+    @GetMapping("/offers")
+    public String getUberOffers(){
+        return "Uber offers";
+    }
+}
