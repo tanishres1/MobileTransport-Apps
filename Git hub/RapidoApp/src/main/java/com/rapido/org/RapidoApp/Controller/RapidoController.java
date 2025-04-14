@@ -11,4 +11,8 @@ public class RapidoController {
     public String  getNotification() {
         return "Rapido rider notification";
     }
+    @GetMapping("/notification")
+    public String  getAlert() {
+        return "Rapido Alert";
+    }
 }
