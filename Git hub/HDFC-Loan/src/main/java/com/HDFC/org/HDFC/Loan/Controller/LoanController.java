@@ -6,4 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoanController {
 
+    @GetMapping("/getPlans")
+
+    public  String getPlans(){
+        return "Get Insurance Plans";
+    }
+
 }
