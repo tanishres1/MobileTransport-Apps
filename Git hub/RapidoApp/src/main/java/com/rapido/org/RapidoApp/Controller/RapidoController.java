@@ -19,4 +19,9 @@ public class RapidoController {
     public String  getRider() {
         return "Rider added";
     }
+    @GetMapping("/customer")
+    public String  getCustomer() {
+        return "Customer Details";
+    }
+
 }
