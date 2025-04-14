@@ -15,4 +15,8 @@ public class RapidoController {
     public String  getAlert() {
         return "Rapido Alert";
     }
+    @GetMapping("/rider")
+    public String  getRider() {
+        return "Rider added";
+    }
 }
